@@ -1,0 +1,14 @@
+// agr hum kisi bhi file me export {} ya import {} likhte h toh vo module ban jati h or module ka scope locally hota h globally ni. file ka scope globally hota h. isiliye global file browser ke in-built variables ko override kr skti h isiliye error ata h.
+
+// type infrence is when you declare a variable and you dont assign any value or type of it then typescript will auto detect that what type of data will store in this variable. and now we study about any keyword that refer to a variable has no define data type. so this is "any"
+// this senerio is applicable on functions also
+
+
+// If we write export {} or import {} in any file, it becomes a module. The scope of a module is local, not global.
+// The scope of a regular file (non-module) is global. That's why a global file can override the browser's built-in variables,
+// which can cause errors.
+
+// Type inference is when you declare a variable without assigning any value or specifying its type,
+// and TypeScript automatically detects what type of data will be stored in that variable.
+// Now let's study the "any" keyword, which is used when a variable has no defined data type.
+// This scenario is also applicable to functions.
