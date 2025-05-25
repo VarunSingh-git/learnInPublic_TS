@@ -12,9 +12,6 @@ console.log(num1); // helo (string type)
 // console.log(num2); 
 // error due to conflict in data types that we store in num2
 
-// let b: boolean=;
-// b = true;
-
 
 
 
